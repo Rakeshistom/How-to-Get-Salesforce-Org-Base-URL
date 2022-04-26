@@ -1,5 +1,5 @@
 global class GetOrgBaseUrl{
-    @InvocableMethod(Label='GetSalesforcebaseandrecordurl')
+    @InvocableMethod(Label='Get Salesforce base and record url')
     global static List<Results> getBaseUrl(List<sObject> sourceRecords){
         
         List<Results> sfdcURLs=new List<Results>();
